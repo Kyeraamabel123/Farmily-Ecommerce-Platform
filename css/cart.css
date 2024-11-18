@@ -1,0 +1,68 @@
+/* Body and container styles */
+body {
+    background-color: #e3f5e1;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    color: #000000;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #45a049;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Table styles */
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    color: white;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    color: #000000;
+}
+
+.table img {
+    border-radius: 5px;
+}

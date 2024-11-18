@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f8f4;
+}
+
+.btn-success {
+    background-color: #5cb85c; 
+    border-color: #4cae4c; 
+}
+
+.btn-success:hover {
+    background-color: #4cae4c; 
+}
+
+.table {
+    border: 1px solid #d9d9d9; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e9f7f2; 
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff; 
+}
+
+.table-light th {
+    background-color: #c7e6d8;
+    color: #3c763d; 
+}
+
+.product-image {
+    border-radius: 5px; 
+}
+
+/* .modal-content {
+    border: 1px solid #d9d9d9; 
+} */
+
+.product-table th, .product-table td {
+    vertical-align: middle;
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #5cb85c; 
+    color: white; 
+}
+
+.modal-footer {
+    background-color: #f0f8f4; 
+}
+
+.form-label {
+    color: #3c763d; 
+}
+
+.form-control {
+    border-color: #c7e6d8; 
+}
+
+.form-control:focus {
+    border-color: #5cb85c; 
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5); 
+}
+
+.modal-dialog {
+    max-width: 50px;
+    width: 30%; 
+}
